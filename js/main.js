@@ -476,7 +476,7 @@ function mealDetails(){
     {
       method :"POST",
       headers:{"Content-Type": "application/json",
-        "x-api-key": "fNrQiOwURXthzjP5F1mnGr9gxVPguR51cYfEmMZx"
+        "x-api-key": ""
       }
     }
   )
