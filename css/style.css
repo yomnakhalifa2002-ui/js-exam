@@ -1,0 +1,77 @@
+.loading {
+  display:none
+}
+/*.section{
+  display: none;
+}
+.section.active{
+  display: block;
+}*/
+#logMeal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.363);
+  z-index: 1000;
+  display: none;
+}
+
+#logMeal .log-screen-container{
+  width: 25%;
+  padding: 30px;
+  border-radius: 6%;
+  background-color: white;
+  z-index: 2;
+}
+#logMeal .servings-btn{
+  border-radius: 6%;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.473);
+  width: 50px;
+  height: fit-content;
+}
+#logMeal input{
+  border: solid rgba(128, 128, 128, 0.427) 2px;
+  text-align: center;
+  border-radius: 6%;
+  height: 50px;
+}
+#logMeal .nutrition-facts{
+  background-color: rgba(0, 250, 154, 0.315);
+  border-radius: 6%;
+  padding: 10px;
+}
+#logMeal .nutrition-facts-inner{
+  display: flex;
+  justify-content: space-evenly;
+}
+#logMeal .btns{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+#logMeal .cancel-btn{
+  background-color: rgba(128, 128, 128, 0.497);
+  width: 50%;
+  border-radius: 6%;
+  text-align: center;
+  margin-right: 10px;
+}
+#logMeal .log-btn{
+  background-color: #1447E6;
+  width: 50%;
+  text-align: center;
+  border-radius: 6%;
+}
+#logged-items-list .flex .justify-between{
+  display: flex;
+  justify-content: space-between;
+}
+#logged-items-list .flex{
+  display: flex;
+}
